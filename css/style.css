@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #E1E1E1;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+}
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 0;
+}
+.logo {
+}
+.nav {
+}
+.nav-list {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.nav-item {
+}
+.nav-link {
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 23px;
+}
+.intro {
+}
+.intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+.intro-left {
+}
+.intro-img {
+}
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+.intro-heading {
+    font-size: 90px;
+    font-weight: 900;
+    color: #393939;
+    line-height: 90px;
+}
+.intro-text {
+    color: #6B6B6B;
+    font-size: 20px;
+    font-weight: 500;
+}
+.intro-btn {
+    color: #6B6B6B;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    padding: 25px 60px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: inset 0 4px 4px #00000023, 0 4px 4px #00000023;
+}
